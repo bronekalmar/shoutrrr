@@ -3,10 +3,9 @@ package ifttt
 import (
 	"bytes"
 	"fmt"
+	"github.com/containrrr/shoutrrr/pkg/format"
 	"net/http"
 	"net/url"
-
-	"github.com/containrrr/shoutrrr/pkg/format"
 
 	"github.com/containrrr/shoutrrr/pkg/services/standard"
 	"github.com/containrrr/shoutrrr/pkg/types"
@@ -73,7 +72,7 @@ func doSend(payload []byte, postURL string) error {
 	if err != nil {
 		return err
 	}
-	if res.StatusCode > 299 || res.StatusCode < 200 {
+	if res.StatusCode != http.StatusNoContent {
 		return fmt.Errorf("got response status code %s", res.Status)
 	}
 	return nil

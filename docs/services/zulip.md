@@ -2,21 +2,21 @@
 
 ## URL Format
 
-The shoutrrr service URL should look like this:
+The shoutrrr service URL should look like this:  
 !!! info ""
-    zulip://__`botmail`__:__`botkey`__@__`host`__/?stream=__`stream`__&topic=__`topic`__
+    zulip://__`bot-mail`__:__`bot-key`__@__`zulip-domain`__/?stream=__`name-or-id`__&topic=__`name`__
 
 --8<-- "docs/services/zulip/config.md"
 
 !!! note
-    Since __`botmail`__  is a mail address you need to URL escape the `@` in it to `%40`.
+    Since __`bot-mail`__  is a mail address you need to URL escape the `@` in it to `%40`.
 
 ### Examples
 
 Stream and topic are both optional and can be given as parameters to the Send method:
 
 ```go
-  sender, _ := shoutrrr.CreateSender(url)
+  sender, __ := shoutrrr.CreateSender(url)
 
   params := make(types.Params)
   params["stream"] = "mystream"

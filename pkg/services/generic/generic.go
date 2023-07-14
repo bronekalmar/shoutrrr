@@ -87,7 +87,9 @@ func (service *Service) doSend(config *Config, params types.Params) error {
 		if res != nil && res.Body != nil {
 			defer res.Body.Close()
 			if body, errRead := ioutil.ReadAll(res.Body); errRead == nil {
-				service.Log("Server response: ", string(body))
+				if string(body) != "" {
+					service.Log("Server response: ", string(body))
+				}
 			}
 		}
 		if err == nil && res.StatusCode >= http.StatusMultipleChoices {

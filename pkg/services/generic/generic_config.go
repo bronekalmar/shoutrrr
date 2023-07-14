@@ -12,7 +12,7 @@ import (
 type Config struct {
 	standard.EnumlessConfig
 	webhookURL    *url.URL
-	ContentType   string `key:"contenttype" default:"application/json" desc:"The value of the Content-Type header"`
+	ContentType   string `key:"contenttype" default:"plain/text" desc:"The value of the Content-Type header"`
 	DisableTLS    bool   `key:"disabletls"  default:"No"`
 	Template      string `key:"template"    optional:"" desc:"The template used for creating the request payload"`
 	Title         string `key:"title"       default:""`
