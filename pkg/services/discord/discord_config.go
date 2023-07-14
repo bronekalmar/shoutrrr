@@ -2,9 +2,9 @@ package discord
 
 import (
 	"errors"
-	"github.com/containrrr/shoutrrr/pkg/format"
-	"github.com/containrrr/shoutrrr/pkg/services/standard"
-	"github.com/containrrr/shoutrrr/pkg/types"
+	"github.com/bronekalmar/shoutrrr/pkg/format"
+	"github.com/bronekalmar/shoutrrr/pkg/services/standard"
+	"github.com/bronekalmar/shoutrrr/pkg/types"
 	"net/url"
 )
 

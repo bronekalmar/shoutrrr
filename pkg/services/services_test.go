@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/containrrr/shoutrrr/internal/testutils"
-	"github.com/containrrr/shoutrrr/pkg/router"
-	"github.com/containrrr/shoutrrr/pkg/types"
+	"github.com/bronekalmar/shoutrrr/internal/testutils"
+	"github.com/bronekalmar/shoutrrr/pkg/router"
+	"github.com/bronekalmar/shoutrrr/pkg/types"
 	"github.com/jarcoal/httpmock"
 
 	. "github.com/onsi/ginkgo/v2"

@@ -2,9 +2,9 @@ package matrix
 
 import (
 	"fmt"
-	"github.com/containrrr/shoutrrr/pkg/format"
-	"github.com/containrrr/shoutrrr/pkg/services/standard"
-	t "github.com/containrrr/shoutrrr/pkg/types"
+	"github.com/bronekalmar/shoutrrr/pkg/format"
+	"github.com/bronekalmar/shoutrrr/pkg/services/standard"
+	t "github.com/bronekalmar/shoutrrr/pkg/types"
 	"net/url"
 )
 

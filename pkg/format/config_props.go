@@ -2,7 +2,7 @@ package format
 
 import (
 	"errors"
-	"github.com/containrrr/shoutrrr/pkg/types"
+	"github.com/bronekalmar/shoutrrr/pkg/types"
 	r "reflect"
 )
 

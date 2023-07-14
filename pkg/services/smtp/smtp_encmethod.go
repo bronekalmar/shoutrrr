@@ -1,8 +1,8 @@
 package smtp
 
 import (
-	"github.com/containrrr/shoutrrr/pkg/format"
-	"github.com/containrrr/shoutrrr/pkg/types"
+	"github.com/bronekalmar/shoutrrr/pkg/format"
+	"github.com/bronekalmar/shoutrrr/pkg/types"
 )
 
 type encMethod int

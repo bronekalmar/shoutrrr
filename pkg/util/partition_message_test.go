@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/containrrr/shoutrrr/pkg/types"
+	"github.com/bronekalmar/shoutrrr/pkg/types"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

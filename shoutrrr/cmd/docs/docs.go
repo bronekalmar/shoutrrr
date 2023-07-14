@@ -2,16 +2,16 @@ package docs
 
 import (
 	"fmt"
-	"github.com/containrrr/shoutrrr/internal/meta"
+	"github.com/bronekalmar/shoutrrr/internal/meta"
 	"github.com/mattn/go-isatty"
 	"os"
 	"strings"
 
-	"github.com/containrrr/shoutrrr/pkg/router"
+	"github.com/bronekalmar/shoutrrr/pkg/router"
 	"github.com/spf13/cobra"
 
-	f "github.com/containrrr/shoutrrr/pkg/format"
-	cli "github.com/containrrr/shoutrrr/shoutrrr/cmd"
+	f "github.com/bronekalmar/shoutrrr/pkg/format"
+	cli "github.com/bronekalmar/shoutrrr/shoutrrr/cmd"
 )
 
 var (

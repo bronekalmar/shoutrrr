@@ -7,12 +7,12 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/containrrr/shoutrrr/internal/meta"
-	"github.com/containrrr/shoutrrr/pkg/format"
-	"github.com/containrrr/shoutrrr/pkg/util/jsonclient"
+	"github.com/bronekalmar/shoutrrr/internal/meta"
+	"github.com/bronekalmar/shoutrrr/pkg/format"
+	"github.com/bronekalmar/shoutrrr/pkg/util/jsonclient"
 
-	"github.com/containrrr/shoutrrr/pkg/services/standard"
-	"github.com/containrrr/shoutrrr/pkg/types"
+	"github.com/bronekalmar/shoutrrr/pkg/services/standard"
+	"github.com/bronekalmar/shoutrrr/pkg/types"
 )
 
 // Service sends notifications Ntfy

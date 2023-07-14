@@ -1,9 +1,9 @@
 package shoutrrr
 
 import (
-	"github.com/containrrr/shoutrrr/internal/meta"
-	"github.com/containrrr/shoutrrr/pkg/router"
-	"github.com/containrrr/shoutrrr/pkg/types"
+	"github.com/bronekalmar/shoutrrr/internal/meta"
+	"github.com/bronekalmar/shoutrrr/pkg/router"
+	"github.com/bronekalmar/shoutrrr/pkg/types"
 )
 
 var defaultRouter = router.ServiceRouter{}

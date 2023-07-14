@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/containrrr/shoutrrr/pkg/util/jsonclient"
+	"github.com/bronekalmar/shoutrrr/pkg/util/jsonclient"
 	"github.com/onsi/gomega/ghttp"
 
 	. "github.com/onsi/ginkgo/v2"

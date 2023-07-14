@@ -1,7 +1,7 @@
 package util
 
 import (
-	t "github.com/containrrr/shoutrrr/pkg/types"
+	t "github.com/bronekalmar/shoutrrr/pkg/types"
 
 	"strings"
 )

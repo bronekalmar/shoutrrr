@@ -3,12 +3,12 @@ package main
 import (
 	"os"
 
-	"github.com/containrrr/shoutrrr/internal/meta"
-	cli "github.com/containrrr/shoutrrr/shoutrrr/cmd"
-	"github.com/containrrr/shoutrrr/shoutrrr/cmd/docs"
-	"github.com/containrrr/shoutrrr/shoutrrr/cmd/generate"
-	"github.com/containrrr/shoutrrr/shoutrrr/cmd/send"
-	"github.com/containrrr/shoutrrr/shoutrrr/cmd/verify"
+	"github.com/bronekalmar/shoutrrr/internal/meta"
+	cli "github.com/bronekalmar/shoutrrr/shoutrrr/cmd"
+	"github.com/bronekalmar/shoutrrr/shoutrrr/cmd/docs"
+	"github.com/bronekalmar/shoutrrr/shoutrrr/cmd/generate"
+	"github.com/bronekalmar/shoutrrr/shoutrrr/cmd/send"
+	"github.com/bronekalmar/shoutrrr/shoutrrr/cmd/verify"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

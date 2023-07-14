@@ -9,11 +9,11 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/containrrr/shoutrrr/internal/failures"
-	"github.com/containrrr/shoutrrr/internal/testutils"
-	"github.com/containrrr/shoutrrr/pkg/format"
-	"github.com/containrrr/shoutrrr/pkg/services/standard"
-	"github.com/containrrr/shoutrrr/pkg/types"
+	"github.com/bronekalmar/shoutrrr/internal/failures"
+	"github.com/bronekalmar/shoutrrr/internal/testutils"
+	"github.com/bronekalmar/shoutrrr/pkg/format"
+	"github.com/bronekalmar/shoutrrr/pkg/services/standard"
+	"github.com/bronekalmar/shoutrrr/pkg/types"
 
 	gt "github.com/onsi/gomega/types"
 

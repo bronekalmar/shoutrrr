@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/containrrr/shoutrrr/pkg/types"
-	"github.com/containrrr/shoutrrr/pkg/util"
+	"github.com/bronekalmar/shoutrrr/pkg/types"
+	"github.com/bronekalmar/shoutrrr/pkg/util"
 )
 
 type client struct {

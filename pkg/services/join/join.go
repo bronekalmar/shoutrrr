@@ -2,13 +2,13 @@ package join
 
 import (
 	"fmt"
-	"github.com/containrrr/shoutrrr/pkg/format"
+	"github.com/bronekalmar/shoutrrr/pkg/format"
 	"net/http"
 	"net/url"
 	"strings"
 
-	"github.com/containrrr/shoutrrr/pkg/services/standard"
-	"github.com/containrrr/shoutrrr/pkg/types"
+	"github.com/bronekalmar/shoutrrr/pkg/services/standard"
+	"github.com/bronekalmar/shoutrrr/pkg/types"
 )
 
 const (

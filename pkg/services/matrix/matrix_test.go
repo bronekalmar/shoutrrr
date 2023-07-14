@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/containrrr/shoutrrr/internal/testutils"
+	"github.com/bronekalmar/shoutrrr/internal/testutils"
 	"github.com/jarcoal/httpmock"
 
 	"log"

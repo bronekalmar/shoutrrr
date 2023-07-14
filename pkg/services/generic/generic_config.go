@@ -3,9 +3,9 @@ package generic
 import (
 	"net/url"
 
-	"github.com/containrrr/shoutrrr/pkg/format"
-	"github.com/containrrr/shoutrrr/pkg/services/standard"
-	t "github.com/containrrr/shoutrrr/pkg/types"
+	"github.com/bronekalmar/shoutrrr/pkg/format"
+	"github.com/bronekalmar/shoutrrr/pkg/services/standard"
+	t "github.com/bronekalmar/shoutrrr/pkg/types"
 )
 
 // Config for use within the generic service

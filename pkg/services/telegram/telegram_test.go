@@ -10,8 +10,8 @@ import (
 
 	"github.com/jarcoal/httpmock"
 
-	"github.com/containrrr/shoutrrr/internal/testutils"
-	. "github.com/containrrr/shoutrrr/pkg/services/telegram"
+	"github.com/bronekalmar/shoutrrr/internal/testutils"
+	. "github.com/bronekalmar/shoutrrr/pkg/services/telegram"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

@@ -1,4 +1,4 @@
-module github.com/containrrr/shoutrrr
+module github.com/bronekalmar/shoutrrr
 
 go 1.16
 
