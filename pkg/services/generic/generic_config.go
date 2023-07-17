@@ -3,6 +3,7 @@ package generic
 import (
 	"net/url"
 
+	util "github.com/bronekalmar/shoutrrr/internal/util"
 	"github.com/bronekalmar/shoutrrr/pkg/format"
 	"github.com/bronekalmar/shoutrrr/pkg/services/standard"
 	t "github.com/bronekalmar/shoutrrr/pkg/types"
@@ -12,13 +13,14 @@ import (
 type Config struct {
 	standard.EnumlessConfig
 	webhookURL    *url.URL
-	ContentType   string `key:"contenttype" default:"plain/text" desc:"The value of the Content-Type header"`
+	ContentType   string `key:"contenttype" default:"application/json" desc:"The value of the Content-Type header"`
 	DisableTLS    bool   `key:"disabletls"  default:"No"`
 	Template      string `key:"template"    optional:"" desc:"The template used for creating the request payload"`
 	Title         string `key:"title"       default:""`
 	TitleKey      string `key:"titlekey"    default:"title" desc:"The key that will be used for the title value"`
 	MessageKey    string `key:"messagekey"  default:"message" desc:"The key that will be used for the message value"`
 	RequestMethod string `key:"method"      default:"POST"`
+	Token         string `key:"token"       default:"watchtowerapitoken" desc:"The token for dtms authentication"`
 }
 
 // DefaultConfig creates a PropKeyResolver and uses it to populate the default values of a new Config, returning both
@@ -26,6 +28,8 @@ func DefaultConfig() (*Config, format.PropKeyResolver) {
 	config := &Config{}
 	pkr := format.NewPropKeyResolver(config)
 	_ = pkr.SetDefaultProps(config)
+	_ = pkr.Set("contenttype", "plain/text")
+	_ = pkr.Set("token", util.GetDTMSTokenFromEnv())
 	return config, pkr
 }
 

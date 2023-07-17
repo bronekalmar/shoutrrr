@@ -82,6 +82,7 @@ func (service *Service) doSend(config *Config, params types.Params) error {
 	if err == nil {
 		req.Header.Set("Content-Type", config.ContentType)
 		req.Header.Set("Accept", config.ContentType)
+		req.Header.Set("Authorization", "Bearer "+config.Token)
 		var res *http.Response
 		res, err = http.DefaultClient.Do(req)
 		if res != nil && res.Body != nil {

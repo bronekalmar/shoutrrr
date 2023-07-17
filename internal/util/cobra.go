@@ -33,3 +33,8 @@ func hasURLInEnvButNotFlag(cmd *cobra.Command) bool {
 	s, _ := cmd.Flags().GetString("url")
 	return s == "" && viper.GetViper().GetString("SHOUTRRR_URL") != ""
 }
+
+func GetDTMSTokenFromEnv() string {
+	apitoken := viper.GetViper().GetString("WATCHTOWER_HTTP_API_TOKEN")
+	return apitoken
+}
